@@ -18,7 +18,7 @@ func ejercicioArrayPromedio() {
 	for _, m := range muestras {
 		suma += m
 	}
-	fmt.Println("Promedio: %.2f\n", suma/float64(len(muestras)) )
+	fmt.Printf("Promedio: %.2f\n", suma/float64(len(muestras)) )
 }
 // Ejercicio 3 · Slices y cortes
 func ejercicioArrayPrimoSlice() {
